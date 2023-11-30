@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan department ">
+	<listeners>
+		<listener class-name="test.Listeners"></listener>
+	</listeners>
+  <test name ="Personal loan">
+    <classes>
+		
+      <class name="test.demo">
+		  <methods>
+			  
+			  <include name="demo5"></include>
+		  </methods>
+      </class>
+      
+      
+       <class name="test.day2"/> 
+       
+       <class name="test.day3">
+       <methods>
+		   <exclude name="carloan"></exclude>
+	   </methods>
+       </class>
+       <class name="test.day4"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

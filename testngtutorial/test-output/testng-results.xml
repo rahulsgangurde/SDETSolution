@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="9" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-30T20:03:56 IST" name="Loan department " finished-at="2023-11-30T20:03:56 IST" duration-ms="93">
+    <groups>
+      <group name="Smoke">
+        <method signature="day2.demo()[pri:0, instance:test.day2@101952da]" name="demo" class="test.day2"/>
+        <method signature="day3.mycarloan()[pri:0, instance:test.day3@bd4dc25]" name="mycarloan" class="test.day3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-11-30T20:03:56 IST" name="Personal loan" finished-at="2023-11-30T20:03:56 IST" duration-ms="93">
+      <class name="test.demo">
+        <test-method signature="demo5()[pri:0, instance:test.demo@306f16f3]" started-at="2023-11-30T20:03:56 IST" name="demo5" finished-at="2023-11-30T20:03:56 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo5 -->
+      </class> <!-- test.demo -->
+      <class name="test.day4">
+        <test-method signature="shadiloan()[pri:0, instance:test.day4@25084a1e]" started-at="2023-11-30T20:03:56 IST" name="shadiloan" finished-at="2023-11-30T20:03:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shadiloan -->
+      </class> <!-- test.day4 -->
+      <class name="test.day2">
+        <test-method signature="demo()[pri:0, instance:test.day2@101952da]" started-at="2023-11-30T20:03:56 IST" name="demo" finished-at="2023-11-30T20:03:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- test.day2 -->
+      <class name="test.day3">
+        <test-method is-config="true" signature="mefirst()[pri:0, instance:test.day3@bd4dc25]" started-at="2023-11-30T20:03:56 IST" name="mefirst" finished-at="2023-11-30T20:03:56 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mefirst -->
+        <test-method is-config="true" signature="myhoan()[pri:0, instance:test.day3@bd4dc25]" started-at="2023-11-30T20:03:56 IST" name="myhoan" finished-at="2023-11-30T20:03:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myhoan -->
+        <test-method signature="mycarloan()[pri:0, instance:test.day3@bd4dc25]" started-at="2023-11-30T20:03:56 IST" name="mycarloan" finished-at="2023-11-30T20:03:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mycarloan -->
+        <test-method is-config="true" signature="myhoan()[pri:0, instance:test.day3@bd4dc25]" started-at="2023-11-30T20:03:56 IST" name="myhoan" finished-at="2023-11-30T20:03:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myhoan -->
+        <test-method signature="myhomeloan()[pri:0, instance:test.day3@bd4dc25]" started-at="2023-11-30T20:03:56 IST" name="myhomeloan" finished-at="2023-11-30T20:03:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myhomeloan -->
+        <test-method is-config="true" signature="myhoan()[pri:0, instance:test.day3@bd4dc25]" started-at="2023-11-30T20:03:56 IST" name="myhoan" finished-at="2023-11-30T20:03:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myhoan -->
+        <test-method signature="mymobileloan(java.lang.String,java.lang.String)[pri:0, instance:test.day3@bd4dc25]" started-at="2023-11-30T20:03:56 IST" name="mymobileloan" data-provider="getData" finished-at="2023-11-30T20:03:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mymobileloan -->
+        <test-method is-config="true" signature="myhoan()[pri:0, instance:test.day3@bd4dc25]" started-at="2023-11-30T20:03:56 IST" name="myhoan" finished-at="2023-11-30T20:03:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myhoan -->
+        <test-method signature="mymobileloan(java.lang.String,java.lang.String)[pri:0, instance:test.day3@bd4dc25]" started-at="2023-11-30T20:03:56 IST" name="mymobileloan" data-provider="getData" finished-at="2023-11-30T20:03:56 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[susername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[spass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mymobileloan -->
+        <test-method is-config="true" signature="myhoan()[pri:0, instance:test.day3@bd4dc25]" started-at="2023-11-30T20:03:56 IST" name="myhoan" finished-at="2023-11-30T20:03:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myhoan -->
+        <test-method signature="mymobileloan(java.lang.String,java.lang.String)[pri:0, instance:test.day3@bd4dc25]" started-at="2023-11-30T20:03:56 IST" name="mymobileloan" data-provider="getData" finished-at="2023-11-30T20:03:56 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mymobileloan -->
+        <test-method is-config="true" signature="melastt()[pri:0, instance:test.day3@bd4dc25]" started-at="2023-11-30T20:03:56 IST" name="melastt" finished-at="2023-11-30T20:03:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- melastt -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Personal loan -->
+  </suite> <!-- Loan department  -->
+</testng-results>
